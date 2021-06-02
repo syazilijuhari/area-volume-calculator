@@ -16,7 +16,7 @@ def calculate_area(name):\
     print(f"The area of rectangle is {rect_area}.")
     
   elif name == "square":
-    height = float(input("Enter square height: "))
+    height = float(input("Enter square's height: "))
         
     # calculate area of square
     sq_area = height * height
