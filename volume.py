@@ -12,18 +12,18 @@ def calculate_volume(name):
         height = float(input("Enter cylinder's height: "))
         rad = float(input("Enter cylinder's radius: "))
         cyl_vol = math.pi * (rad**2) * height
-		return prt("cylinder",cyl_vol)
+	return prt("cylinder",cyl_vol)
 
     elif name == "sphere":
         rad = float(input("Enter sphere's radius: "))
         sphere_vol = 4/3 * math.pi * (rad**3)
-		return prt("sphere",sphere_vol)
+	return prt("sphere",sphere_vol)
 
     elif name == "cone":
         height = float(input("Enter cone's height: "))
         rad = float(input("Enter sphere's radius: "))
         cone_vol = 1/3 * math.pi *(rad**2)* height
-		return prt("cone",cone_vol)
+	return prt("cone",cone_vol)
     
     else:
         print("Sorry! This solid is not available")
